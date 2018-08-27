@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1535182293 source:d:\git\pta\test_case\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<algorithm>
+	<assert.h>
+	<queue>
+	<cstdlib>
+	<ctime>
+

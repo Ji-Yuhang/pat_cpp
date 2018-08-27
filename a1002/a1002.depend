@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1534781113 source:d:\git\pta\a1002\main.cpp
+	<iostream>
+	<map>
+	<iomanip>
+	<cstdio>
+	<cmath>
+

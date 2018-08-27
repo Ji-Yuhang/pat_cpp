@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1535355209 source:d:\git\pta\a1007\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<map>
+
+1535358821 source:d:\git\pta\a1007\divide.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<map>
+	<numeric>
+

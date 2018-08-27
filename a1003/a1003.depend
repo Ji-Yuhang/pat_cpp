@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1534911901 source:d:\git\pta\a1003\main.cpp
+	<iostream>
+	<set>
+	<map>
+	<vector>
+	<algorithm>
+
+1534912105 source:d:\git\pta\a1003\graph.cpp
+	<iostream>
+	<set>
+	<map>
+	<vector>
+	<algorithm>
+	<stack>
+	<queue>
+

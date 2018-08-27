@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1535182932 source:d:\git\pta\a1004\main.cpp
+	<iostream>
+	<map>
+	<vector>
+	<algorithm>
+	<assert.h>
+

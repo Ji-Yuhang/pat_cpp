@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1534769925 source:d:\git\pta\main.cpp
+	<iostream>
+
+1534769964 source:d:\git\pta\b1014.cpp
+	<iostream>
+	<string>
+	<cctype>
+	<sstream>
+	<map>
+	<cstdlib>
+

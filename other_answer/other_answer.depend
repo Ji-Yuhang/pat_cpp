@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1535181501 source:d:\git\pta\other_answer\main.cpp
+	<iostream>
+	<queue>
+	<vector>
+	<algorithm>
+
