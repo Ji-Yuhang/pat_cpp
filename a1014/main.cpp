@@ -59,7 +59,10 @@ int main()
     }
     for (int time = 1; time <= 9*60; time++){
         for (auto& c: customers){
-            if (c.id != -1 && time > c.ask && c.ask != -1 && c.begin_time != -1){
+            if (c.id != -1 && time > c.ask && c.ask != -1 && c.begin_time != -1&& c.end_time == -1){
+                if (c.id <= 0){
+                    cout <<"bug";
+                }
                 c.sorry = true;
                 sorry_ids.insert(c.id);
                 unserverd_ids.erase(c.id);
@@ -80,11 +83,13 @@ int main()
             if (windows[i].empty()) continue;
 
             Customer& c = windows[i].front();
+            if (c.id == -1) continue;
             c.remain--;
             if (c.remain <= 0){
                 // TODO: remove
                 //c.end_time = time;
                 customers[c.id].end_time = time;
+                cout << c.id <<" : "<< time<< "\n";
                 windows[i].pop_front();
                 // TODO: add new customer
             }
@@ -112,6 +117,7 @@ int main()
                     customers[id].begin_time = time;
                     customers[id].remain = customers[id].process;
                     windows[min_window].push_back(customers[id]);
+                    unserverd_ids.erase(id);
                 }
             }
         }
@@ -125,7 +131,7 @@ int main()
                     cout <<"\nSorry";
                 }
                 else{
-                    cout <<"\n"<<c.end_time;
+                    cout <<"\n"<< c.id <<" : "<<c.end_time;
                 }
             }
         }
