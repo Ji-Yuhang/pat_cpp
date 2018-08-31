@@ -1,7 +1,8 @@
 # depslib dependency file v1.0
-1535637207 source:d:\git\pta\a1014\main.cpp
+1535689615 source:d:\git\pta\a1014\main.cpp
 	<iostream>
 	<vector>
 	<deque>
 	<set>
+	<algorithm>
 
