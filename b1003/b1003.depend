@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1535775792 source:d:\git\pta\b1003\main.cpp
+	<iostream>
+	<string>
+	<vector>
+	<cctype>
+	<algorithm>
+	<set>
+
