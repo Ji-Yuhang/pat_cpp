@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1535963494 source:d:\git\pta\a1018\main.cpp
+	<iostream>
+	<vector>
+	<map>
+	<queue>
+	<algorithm>
+

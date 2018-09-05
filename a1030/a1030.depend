@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1536137712 source:d:\git\pta\a1030\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+	<string>
+	<limits>
+	<tuple>
+	<queue>
+
